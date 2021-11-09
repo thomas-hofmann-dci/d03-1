@@ -10,10 +10,14 @@
     // returns 7;
 
 // Number precision (JavaScript numbers are accurate up to 15 digits)
-    const testValue1 = 999999999999999;   
+    const testValue1 = 999999999999999;
     // returns         999999999999999
-    const testValue2 = 9999999999999999; 
+    const testValue2 = 9999999999999999;
     // returns         10000000000000000
+
+// determine if something is a number:
+    isNaN("abc");
+    isNaN(1);
 
 // converting Strings to numbers
     const testValue1 = '25';
