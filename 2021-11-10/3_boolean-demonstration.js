@@ -73,7 +73,8 @@
     // FALSE: Value A is not equal or lesser to value B
     5 <= 4;
 
-// inversion
+// inversion/negation
     const testValue = true;
     !testValue
     // returns false;
+    
