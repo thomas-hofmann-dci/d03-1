@@ -15,6 +15,14 @@
     const testValue2 = 9999999999999999;
     // returns         10000000000000000
 
+// Precision until Infinity
+   1/0.1
+   1/0.01
+   1/(0.1**2) // **3 **4 ... **308 bis 1/0.1**309 => Infinity
+
+   let inf = 1/0;
+   typeof inf;
+
 // determine if something is a number:
     isNaN("abc");
     isNaN(1);

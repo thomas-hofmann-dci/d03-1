@@ -2,13 +2,13 @@
 // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/typeof
 
     // Should be number
-    typeof(50);
+    typeof 50 ;
 
     // Should be string
-    typeof('Hello');
+    typeof 'Hello';
 
     // Should be boolean
-    typeof(true);
+    typeof true ;
 
     // Should be undefined
-    typeof(test);
+    typeof test ;
